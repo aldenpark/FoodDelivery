@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDelivery", "FoodDelivery\FoodDelivery.csproj", "{F40A2A35-7B8A-46A8-9193-B4376216361B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodDelivery", "FoodDelivery\FoodDelivery.csproj", "{F40A2A35-7B8A-46A8-9193-B4376216361B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDelivery.DataAccess", "FoodDelivery.DataAccess\FoodDelivery.DataAccess.csproj", "{1C8CC9CD-B0C8-45F1-9589-93CA0A22776A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDelivery.Models", "FoodDelivery.Models\FoodDelivery.Models.csproj", "{EBD10F48-97A2-482B-A11B-E5C0B8B427D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDelivery.Utility", "FoodDelivery.Utility\FoodDelivery.Utility.csproj", "{B50FD86D-ACC8-4A60-9942-0F1D5B38257B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{F40A2A35-7B8A-46A8-9193-B4376216361B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F40A2A35-7B8A-46A8-9193-B4376216361B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F40A2A35-7B8A-46A8-9193-B4376216361B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8CC9CD-B0C8-45F1-9589-93CA0A22776A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8CC9CD-B0C8-45F1-9589-93CA0A22776A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8CC9CD-B0C8-45F1-9589-93CA0A22776A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8CC9CD-B0C8-45F1-9589-93CA0A22776A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD10F48-97A2-482B-A11B-E5C0B8B427D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD10F48-97A2-482B-A11B-E5C0B8B427D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD10F48-97A2-482B-A11B-E5C0B8B427D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD10F48-97A2-482B-A11B-E5C0B8B427D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50FD86D-ACC8-4A60-9942-0F1D5B38257B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50FD86D-ACC8-4A60-9942-0F1D5B38257B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50FD86D-ACC8-4A60-9942-0F1D5B38257B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50FD86D-ACC8-4A60-9942-0F1D5B38257B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

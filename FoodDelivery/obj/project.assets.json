@@ -2776,6 +2776,40 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "FoodDelivery.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FoodDelivery.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7"
+        },
+        "compile": {
+          "bin/placeholder/FoodDelivery.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodDelivery.DataAccess.dll": {}
+        }
+      },
+      "FoodDelivery.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FoodDelivery.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodDelivery.Models.dll": {}
+        }
+      },
+      "FoodDelivery.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FoodDelivery.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodDelivery.Utility.dll": {}
+        }
       }
     }
   },
@@ -8873,10 +8907,28 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "FoodDelivery.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../FoodDelivery.DataAccess/FoodDelivery.DataAccess.csproj",
+      "msbuildProject": "../FoodDelivery.DataAccess/FoodDelivery.DataAccess.csproj"
+    },
+    "FoodDelivery.Models/1.0.0": {
+      "type": "project",
+      "path": "../FoodDelivery.Models/FoodDelivery.Models.csproj",
+      "msbuildProject": "../FoodDelivery.Models/FoodDelivery.Models.csproj"
+    },
+    "FoodDelivery.Utility/1.0.0": {
+      "type": "project",
+      "path": "../FoodDelivery.Utility/FoodDelivery.Utility.csproj",
+      "msbuildProject": "../FoodDelivery.Utility/FoodDelivery.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "FoodDelivery.DataAccess >= 1.0.0",
+      "FoodDelivery.Models >= 1.0.0",
+      "FoodDelivery.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.7",
@@ -8890,11 +8942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery\\FoodDelivery.csproj",
+      "projectUniqueName": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery\\FoodDelivery.csproj",
       "projectName": "FoodDelivery",
-      "projectPath": "C:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery\\FoodDelivery.csproj",
+      "projectPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery\\FoodDelivery.csproj",
       "packagesPath": "C:\\Users\\alden\\.nuget\\packages\\",
-      "outputPath": "C:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery\\obj\\",
+      "outputPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alden\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8909,7 +8961,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.DataAccess\\FoodDelivery.DataAccess.csproj": {
+              "projectPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.DataAccess\\FoodDelivery.DataAccess.csproj"
+            },
+            "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Models\\FoodDelivery.Models.csproj": {
+              "projectPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Models\\FoodDelivery.Models.csproj"
+            },
+            "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\FoodDelivery.Utility.csproj": {
+              "projectPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\FoodDelivery.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
