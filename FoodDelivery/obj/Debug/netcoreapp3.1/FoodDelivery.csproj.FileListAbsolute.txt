@@ -886,3 +886,12 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\stati
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.dll
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.pdb
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.genruntimeconfig.cache
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\ParkaFoodDelivery - Web Deploy\profile.arm.json
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\FoodDelivery.DataAccess.dll
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\FoodDelivery.Models.dll
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\FoodDelivery.Utility.dll
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\FoodDelivery.DataAccess.pdb
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\FoodDelivery.Models.pdb
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\FoodDelivery.Utility.pdb

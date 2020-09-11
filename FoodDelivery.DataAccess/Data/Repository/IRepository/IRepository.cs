@@ -6,7 +6,7 @@ using System.Text;
 
 namespace FoodDelivery.DataAccess.IRepository
 {
-    interface IRepository<T> where T : class
+    public interface IRepository<T> where T : class
     {
         //Get Object Id
         T Get(int id);
