@@ -11,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using FoodDelivery.DataAccess.Data;
 using FoodDelivery.DataAccess.Data.Repository.IRepository;
+using FoodDelivery.DataAccess.Data.Repository;
 
 namespace FoodDelivery
 {
@@ -31,7 +32,7 @@ namespace FoodDelivery
             services.AddDbContext<ApplicationDbContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("ApplicationDbContext"))); // auto added to appsettings.json
 
-            services.AddScoped<IUnitOfWork, IUnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddMvc(OptionsBuilderConfigurationExtensions => OptionsBuilderConfigurationExtensions.EnableEndpointRouting = false); // so we can use Javascript
         }
 

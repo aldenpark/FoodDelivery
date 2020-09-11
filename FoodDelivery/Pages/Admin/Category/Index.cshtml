@@ -1,0 +1,31 @@
+﻿@page
+@model FoodDelivery.Pages.Admin.Category.IndexModel
+
+<h1>Categories</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].DisplayOrder)
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model.Category)
+        {
+        <tr>
+            <td>
+                @Html.DisplayNameFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayNameFor(modelItem => item.DisplayOrder)
+            </td>
+        </tr>
+        }
+        </tbody>
+
+    </table>

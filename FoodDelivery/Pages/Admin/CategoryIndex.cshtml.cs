@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using FoodDelivery.DataAccess.Data;
-using FoodDelivery.Models;
 
 namespace FoodDelivery.Pages.Admin
 {
@@ -19,7 +18,7 @@ namespace FoodDelivery.Pages.Admin
             _context = context;
         }
 
-        public IList<Category> Category { get;set; }
+        public IList<FoodDelivery.Models.Category> Category { get;set; }
 
         public async Task OnGetAsync()
         {

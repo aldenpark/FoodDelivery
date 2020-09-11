@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Admin\Category\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\FoodDelivery.DataAccess\FoodDelivery.DataAccess.csproj" />
     <ProjectReference Include="..\FoodDelivery.Models\FoodDelivery.Models.csproj" />
     <ProjectReference Include="..\FoodDelivery.Utility\FoodDelivery.Utility.csproj" />
