@@ -10,18 +10,10 @@ namespace FoodDelivery.Pages.Admin.Category
 {
     public class IndexModel : PageModel
     {
-        private readonly ApplicationDbContext _context;
-
-        public IndexModel(ApplicationDbContext context)
-        {
-            _context = context;
-        }
-
-        public IList<FoodDelivery.Models.Category> Category { get; set; }
 
         public void OnGet()
         {
-            Category = _context.Category.ToList();
+
         }
     }
 }

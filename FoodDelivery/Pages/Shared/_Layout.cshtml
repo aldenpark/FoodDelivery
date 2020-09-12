@@ -30,7 +30,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropDown" data-toggle="dropdown">Admin</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item text-dark" asp-page="/Admin/CategoryIndex">Category</a>
+                                <a class="dropdown-item text-dark" asp-page="/Admin/Category/Index">Category</a>
                                 <a class="dropdown-item text-dark" asp-page="/Admin/FoodType/Index">Food Type</a>
                                 <a class="dropdown-item text-dark" asp-page="/Admin/MenuItem/Index">Menu Item</a>
                                 <a class="dropdown-item text-dark" asp-page="/Admin/Users/Index">Users</a>
@@ -55,8 +55,10 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @RenderSection("Scripts", required: false)
+    <script src="~/js/site.js" asp-append-version="false"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+            @RenderSection("Scripts", required: false)
 </body>
 </html>
