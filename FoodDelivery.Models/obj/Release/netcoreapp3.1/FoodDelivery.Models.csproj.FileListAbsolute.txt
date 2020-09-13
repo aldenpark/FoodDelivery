@@ -1,0 +1,9 @@
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Models\bin\Release\netcoreapp3.1\FoodDelivery.Models.deps.json
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Models\bin\Release\netcoreapp3.1\FoodDelivery.Models.dll
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Models\bin\Release\netcoreapp3.1\FoodDelivery.Models.pdb
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Models\obj\Release\netcoreapp3.1\FoodDelivery.Models.csprojAssemblyReference.cache
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Models\obj\Release\netcoreapp3.1\FoodDelivery.Models.AssemblyInfoInputs.cache
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Models\obj\Release\netcoreapp3.1\FoodDelivery.Models.AssemblyInfo.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Models\obj\Release\netcoreapp3.1\FoodDelivery.Models.csproj.CoreCompileInputs.cache
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Models\obj\Release\netcoreapp3.1\FoodDelivery.Models.dll
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Models\obj\Release\netcoreapp3.1\FoodDelivery.Models.pdb
