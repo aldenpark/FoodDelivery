@@ -880,6 +880,7 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodD
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorCoreGenerate.cache
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\CategoryIndex.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Category\Index.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Category\Upsert.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs

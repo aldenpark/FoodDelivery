@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FoodDelivery",
+    "\\FoodDelivery.DataAccess",
+    "\\FoodDelivery.Models",
+    "\\FoodDelivery.Utility",
+    "\\FoodDelivery\\Controllers",
+    "\\FoodDelivery\\Pages",
+    "\\FoodDelivery\\Pages\\Admin",
+    "\\FoodDelivery\\Pages\\Admin\\Category",
+    "\\FoodDelivery\\Pages\\Shared",
+    "\\FoodDelivery\\wwwroot"
+  ],
+  "SelectedNode": "\\FoodDelivery\\Pages",
+  "PreviewInSolutionExplorer": false
+}
