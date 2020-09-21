@@ -15,5 +15,6 @@ namespace FoodDelivery.DataAccess.Data
         }
 
         public DbSet<FoodDelivery.Models.Category> Category { get; set; }
+        public DbSet<FoodDelivery.Models.FoodType> FoodType { get; set; }
     }
 }
