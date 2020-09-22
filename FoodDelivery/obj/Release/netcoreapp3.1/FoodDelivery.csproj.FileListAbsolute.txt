@@ -453,3 +453,5 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Release\netcoreapp3.1\Foo
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Release\netcoreapp3.1\FoodDelivery.Utility.pdb
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\Category\Index.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\Category\Upsert.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\FoodType\Index.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\FoodType\Upsert.cshtml.g.cs

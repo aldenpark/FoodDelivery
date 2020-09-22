@@ -30,7 +30,9 @@ namespace FoodDelivery
             services.AddRazorPages();
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("ApplicationDbContext"))); // auto added to appsettings.json
+                    options.UseSqlServer(Configuration.GetConnectionString("ApplicationDbContext"),
+                    sqlServerOptions => sqlServerOptions.MigrationsAssembly("FoodDelivery.DataAccess")
+                )); // auto added to appsettings.json
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddMvc(OptionsBuilderConfigurationExtensions => OptionsBuilderConfigurationExtensions.EnableEndpointRouting = false); // so we can use Javascript
