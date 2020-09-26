@@ -22,4 +22,8 @@
     <ProjectReference Include="..\FoodDelivery.Utility\FoodDelivery.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\menuitems\" />
+  </ItemGroup>
+
 </Project>

@@ -881,6 +881,10 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodD
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\CategoryIndex.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Category\Index.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Category\Upsert.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodType\Index.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodType\Upsert.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\MenuItem\Index.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\MenuItem\Upsert.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
@@ -897,6 +901,4 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\stati
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.dll
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.pdb
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.genruntimeconfig.cache
-D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodType\Index.cshtml.g.cs
-D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodType\Upsert.cshtml.g.cs
-D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\MenuItem\Index.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Home\Index.cshtml.g.cs
