@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using FoodDelivery.Utility
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -12,29 +13,61 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.css" />
 </head>
-<body>
+<body class="search-background">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary text-white border-bottom box-shadow mb-3">
             <div class="container">
-
-                <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="~/images/logo.gif" alt="logo" /></a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="~/images/logo.gif" alt="logo" /> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-page="/Index">Home</a>
-                        </li>
+                        @if (User.IsInRole(SD.ManagerRole))
+                        {
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropDown" data-toggle="dropdown">Admin</a>
+                            <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropDown" data-toggle="dropdown">
+                                Admin
+                            </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item text-dark" asp-page="/Admin/Category/Index">Category</a>
-                                <a class="dropdown-item text-dark" asp-page="/Admin/FoodType/Index">Food Type</a>
-                                <a class="dropdown-item text-dark" asp-page="/Admin/MenuItem/Index">Menu Item</a>
-                                <a class="dropdown-item text-dark" asp-page="/Admin/Users/Index">Users</a>
+                                <a class="dropdown-item text-black" asp-page="/Admin/Category/Index">Category</a>
+                                <a class="dropdown-item text-black" asp-page="/Admin/FoodType/Index">Food Type</a>
+                                <a class="dropdown-item text-black" asp-page="/Admin/MenuItem/Index">Menu Item</a>
+                                <a class="dropdown-item text-black" asp-page="/Admin/User/Index">User</a>
                             </div>
+                        </li>
+                        }
+
+                        @if (User.IsInRole(SD.ManagerRole) || User.IsInRole(SD.KitchenRole))
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-page="/Admin/Order/ManageOrder">Manage Orders</a>
+                        </li>
+                        }
+
+                        @if (User.IsInRole(SD.ManagerRole) || User.IsInRole(SD.DriverRole))
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-page="/Admin/Order/OrderList">Order Deliveries</a>
+                        </li>
+                        }
+
+                        @if (User.IsInRole(SD.CustomerRole))
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-page="/Admin/Order/OrderList">Order History</a>
+                        </li>
+                        }
+
+                        <li>
+                            <a class="nav-link text-white" asp-page="/Customer/Cart/Index">
+
+
+                                <i class="fas fa-shopping-cart"></i>&nbsp; (0)
+                            </a>
+
                         </li>
                     </ul>
                 </div>
@@ -49,9 +82,10 @@
 
     <footer class="border-top footer text-muted bg-primary">
         <div class="container text-white">
-            &copy; 2020 - FoodDelivery - <a class="text-white" asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2020 - Food Delivery - <a class="text-white" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

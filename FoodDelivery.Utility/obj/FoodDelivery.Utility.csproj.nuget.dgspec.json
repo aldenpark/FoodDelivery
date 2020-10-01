@@ -4,14 +4,14 @@
     "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\FoodDelivery.Utility.csproj": {}
   },
   "projects": {
-    "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\FoodDelivery.Utility.csproj": {
+    "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Models\\FoodDelivery.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\FoodDelivery.Utility.csproj",
-        "projectName": "FoodDelivery.Utility",
-        "projectPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\FoodDelivery.Utility.csproj",
+        "projectUniqueName": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Models\\FoodDelivery.Models.csproj",
+        "projectName": "FoodDelivery.Models",
+        "projectPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Models\\FoodDelivery.Models.csproj",
         "packagesPath": "C:\\Users\\alden\\.nuget\\packages\\",
-        "outputPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\obj\\",
+        "outputPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alden\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -48,6 +58,75 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\FoodDelivery.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\FoodDelivery.Utility.csproj",
+        "projectName": "FoodDelivery.Utility",
+        "projectPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\FoodDelivery.Utility.csproj",
+        "packagesPath": "C:\\Users\\alden\\.nuget\\packages\\",
+        "outputPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alden\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Models\\FoodDelivery.Models.csproj": {
+                "projectPath": "D:\\var\\www\\School\\CS4790\\FoodDelivery\\FoodDelivery.Models\\FoodDelivery.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

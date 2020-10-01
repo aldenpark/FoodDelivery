@@ -455,3 +455,6 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Raz
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\Category\Upsert.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\FoodType\Index.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\FoodType\Upsert.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\MenuItem\Index.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\MenuItem\Upsert.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Customer\Home\Index.cshtml.g.cs
