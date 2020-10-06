@@ -7,3 +7,6 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Utility\obj\Release\netcoreap
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Utility\obj\Release\netcoreapp3.1\FoodDelivery.Utility.csproj.CoreCompileInputs.cache
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Utility\obj\Release\netcoreapp3.1\FoodDelivery.Utility.dll
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Utility\obj\Release\netcoreapp3.1\FoodDelivery.Utility.pdb
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Utility\bin\Release\netcoreapp3.1\FoodDelivery.Models.dll
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Utility\bin\Release\netcoreapp3.1\FoodDelivery.Models.pdb
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery.Utility\obj\Release\netcoreapp3.1\FoodDelivery.Utility.csproj.CopyComplete

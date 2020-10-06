@@ -1,4 +1,5 @@
 ﻿using FoodDelivery.DataAccess.Data.Repository.IRepository;
+using FoodDelivery.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,6 +13,7 @@ namespace FoodDelivery.DataAccess.Data.Repository
         public IFoodTypeRepository FoodType { get; private set; }
         public IMenuItemRepository MenuItem { get; private set; }
         public IApplicationUserRepository ApplicationUser { get; private set; }
+        public IShoppingCartRepository ShoppingCart { get; private set; }
 
         public UnitOfWork(ApplicationDbContext db)
         {
@@ -20,6 +22,7 @@ namespace FoodDelivery.DataAccess.Data.Repository
             FoodType = new FoodTypeRepository(_db);
             MenuItem = new MenuItemRepository(_db);
             ApplicationUser = new ApplicationUserRepository(_db);
+            ShoppingCart = new ShoppingCartRepository(_db);
         }
         void IDisposable.Dispose()
         {

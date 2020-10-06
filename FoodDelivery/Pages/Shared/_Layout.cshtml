@@ -1,4 +1,7 @@
 ﻿@using FoodDelivery.Utility
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,48 +30,64 @@
                     <ul class="navbar-nav flex-grow-1">
                         @if (User.IsInRole(SD.ManagerRole))
                         {
-                        <li class="nav-item dropdown">
-                            <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropDown" data-toggle="dropdown">
-                                Admin
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item text-black" asp-page="/Admin/Category/Index">Category</a>
-                                <a class="dropdown-item text-black" asp-page="/Admin/FoodType/Index">Food Type</a>
-                                <a class="dropdown-item text-black" asp-page="/Admin/MenuItem/Index">Menu Item</a>
-                                <a class="dropdown-item text-black" asp-page="/Admin/User/Index">User</a>
-                            </div>
-                        </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropDown" data-toggle="dropdown">
+                                    Admin
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item text-black" asp-page="/Admin/Category/Index">Category</a>
+                                    <a class="dropdown-item text-black" asp-page="/Admin/FoodType/Index">Food Type</a>
+                                    <a class="dropdown-item text-black" asp-page="/Admin/MenuItem/Index">Menu Item</a>
+                                    <a class="dropdown-item text-black" asp-page="/Admin/User/Index">User</a>
+                                </div>
+                            </li>
                         }
 
                         @if (User.IsInRole(SD.ManagerRole) || User.IsInRole(SD.KitchenRole))
                         {
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-page="/Admin/Order/ManageOrder">Manage Orders</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-page="/Admin/Order/ManageOrder">Manage Orders</a>
+                            </li>
                         }
 
                         @if (User.IsInRole(SD.ManagerRole) || User.IsInRole(SD.DriverRole))
                         {
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-page="/Admin/Order/OrderList">Order Deliveries</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-page="/Admin/Order/OrderList">Order Deliveries</a>
+                            </li>
                         }
 
                         @if (User.IsInRole(SD.CustomerRole))
                         {
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-page="/Admin/Order/OrderList">Order History</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-page="/Admin/Order/OrderList">Order History</a>
+                            </li>
                         }
 
-                        <li>
-                            <a class="nav-link text-white" asp-page="/Customer/Cart/Index">
+                        @if (HttpContextAccessor.HttpContext.Session.GetInt32(SD.ShoppingCart) != null)
+                        {
+                            <li>
+                                <a class="nav-link text-white" asp-page="/Customer/Cart/Index">
+                                    @{
+                                        var count = HttpContextAccessor.HttpContext.Session.GetInt32(SD.ShoppingCart); }
+
+                                    <i class="fas fa-shopping-cart"></i>&nbsp; (@count)
+                                </a>
+
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a class="nav-link text-white" asp-page="/Customer/Cart/Index">
 
 
-                                <i class="fas fa-shopping-cart"></i>&nbsp; (0)
-                            </a>
+                                    <i class="fas fa-shopping-cart"></i>&nbsp; (0)
+                                </a>
 
-                        </li>
+                            </li>
+                        }
+
                     </ul>
                 </div>
             </div>
