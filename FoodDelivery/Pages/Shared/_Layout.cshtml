@@ -68,12 +68,9 @@
                         {
                             <li>
                                 <a class="nav-link text-white" asp-page="/Customer/Cart/Index">
-                                    @{
-                                        var count = HttpContextAccessor.HttpContext.Session.GetInt32(SD.ShoppingCart); }
-
+                                    @{ var count = HttpContextAccessor.HttpContext.Session.GetInt32(SD.ShoppingCart); }
                                     <i class="fas fa-shopping-cart"></i>&nbsp; (@count)
                                 </a>
-
                             </li>
                         }
                         else

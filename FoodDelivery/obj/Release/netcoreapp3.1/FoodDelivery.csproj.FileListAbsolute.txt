@@ -475,3 +475,4 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Raz
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Admin\User\Index.cshtml.g.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Release\netcoreapp3.1\Razor\Pages\Customer\Home\Details.cshtml.g.cs

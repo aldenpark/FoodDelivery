@@ -14,7 +14,7 @@ using FoodDelivery.Utility;
 
 namespace FoodDelivery.Pages.Customer.Home
 {
-    [Authorize] // locks down page so user must be logged in to view it
+    //[Authorize] // locks down razor page so user must be logged in to view it
     public class DetailsModel : PageModel
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -38,6 +38,10 @@ namespace FoodDelivery.Pages.Customer.Home
 
         public IActionResult OnPost()
         {
+            if (!User.Identity.IsAuthenticated)
+            {
+                return RedirectToPage("/Account/Login", new { area = "Identity" });  // took a while, had to read up on how to do redirection with asp areas to get this to work
+            }
             if (ModelState.IsValid)
             {
                 // get guid of user  add default token providers in startup
