@@ -45,6 +45,10 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.15.0, )"
             }
           },
           "imports": [

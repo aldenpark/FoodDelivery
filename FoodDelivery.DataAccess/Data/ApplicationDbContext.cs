@@ -21,5 +21,7 @@ namespace FoodDelivery.DataAccess.Data
         public DbSet<FoodDelivery.Models.MenuItem> MenuItem { get; set; }
         public DbSet<FoodDelivery.Models.ApplicationUser> ApplicationUser { get; set; }
         public DbSet<FoodDelivery.Models.ShoppingCart> ShoppingCart { get; set; }
+        public DbSet<FoodDelivery.Models.OrderHeader> OrderHeader { get; set; }
+        public DbSet<FoodDelivery.Models.OrderDetails> OrderDetails { get; set; }
     }
 }

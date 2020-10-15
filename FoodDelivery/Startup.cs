@@ -15,6 +15,8 @@ using FoodDelivery.DataAccess.Data.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using FoodDelivery.Models;
+using FoodDelivery.Utility;
+using Stripe;
 
 namespace FoodDelivery
 {
@@ -49,6 +51,7 @@ namespace FoodDelivery
             services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders().AddEntityFrameworkStores<ApplicationDbContext>(); // Identity login pages (Roles, tokens, and additional stuff)
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddMvc(OptionsBuilderConfigurationExtensions => OptionsBuilderConfigurationExtensions.EnableEndpointRouting = false); // so we can use Javascript
+            
 
             // make sure this loads after the mvc service
             services.Configure<IdentityOptions>(options =>
@@ -80,6 +83,10 @@ namespace FoodDelivery
                 options.AccessDeniedPath = "/Identity/Account/AccessDenied";
                 options.SlidingExpiration = true;
             });
+
+            // Stripe Payment API
+            services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -105,6 +112,8 @@ namespace FoodDelivery
             app.UseAuthorization();
 
             app.UseMvc();
+
+            StripeConfiguration.ApiKey = Configuration.GetSection("Stripe")["SecretKey"];
 
             app.UseEndpoints(endpoints =>
             {

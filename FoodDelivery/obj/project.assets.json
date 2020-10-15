@@ -1850,6 +1850,20 @@
           "lib/netstandard2.1/StarkbankEcdsa.dll": {}
         }
       },
+      "Stripe.net/39.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Newtonsoft.Json": "11.0.1",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2129,7 +2143,7 @@
           "System.Security.Permissions": "4.5.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
@@ -3381,7 +3395,8 @@
           "FoodDelivery.Models": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.8",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
+          "Stripe.net": "39.15.0"
         },
         "compile": {
           "bin/placeholder/FoodDelivery.DataAccess.dll": {}
@@ -3395,7 +3410,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
-          "Microsoft.Extensions.Identity.Stores": "3.1.8"
+          "Microsoft.Extensions.Identity.Stores": "3.1.8",
+          "Stripe.net": "39.15.0"
         },
         "compile": {
           "bin/placeholder/FoodDelivery.Models.dll": {}
@@ -3410,7 +3426,8 @@
         "dependencies": {
           "FoodDelivery.Models": "1.0.0",
           "Microsoft.AspNetCore.Identity.UI": "3.1.8",
-          "SendGrid": "9.21.0"
+          "SendGrid": "9.21.0",
+          "Stripe.net": "39.15.0"
         },
         "compile": {
           "bin/placeholder/FoodDelivery.Utility.dll": {}
@@ -5987,6 +6004,25 @@
         "lib/netstandard2.1/StarkbankEcdsa.dll",
         "starkbank-ecdsa.1.2.0.nupkg.sha512",
         "starkbank-ecdsa.nuspec"
+      ]
+    },
+    "Stripe.net/39.15.0": {
+      "sha512": "Qpf6Xz9vzxP78qtoiVH7RC4cvTHjOsOPNC/KYd1FttvWKfVAYRaC35XlmfCYSYg4L+6x8Y+CBrxs8VXGHI3H7g==",
+      "type": "package",
+      "path": "stripe.net/39.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net461/Stripe.net.dll",
+        "lib/net461/Stripe.net.pdb",
+        "lib/net461/Stripe.net.xml",
+        "lib/netstandard2.0/Stripe.net.dll",
+        "lib/netstandard2.0/Stripe.net.pdb",
+        "lib/netstandard2.0/Stripe.net.xml",
+        "stripe.net.39.15.0.nupkg.sha512",
+        "stripe.net.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -10275,7 +10311,8 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.8",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
-      "SendGrid >= 9.21.0"
+      "SendGrid >= 9.21.0",
+      "Stripe.net >= 39.15.0"
     ]
   },
   "packageFolders": {
@@ -10358,6 +10395,10 @@
           "SendGrid": {
             "target": "Package",
             "version": "[9.21.0, )"
+          },
+          "Stripe.net": {
+            "target": "Package",
+            "version": "[39.15.0, )"
           }
         },
         "imports": [

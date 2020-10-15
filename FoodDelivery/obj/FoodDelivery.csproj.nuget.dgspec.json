@@ -59,6 +59,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.7, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.15.0, )"
             }
           },
           "imports": [
@@ -121,6 +125,10 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.15.0, )"
             }
           },
           "imports": [
@@ -187,6 +195,10 @@
             "SendGrid": {
               "target": "Package",
               "version": "[9.21.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.15.0, )"
             }
           },
           "imports": [
@@ -288,6 +300,10 @@
             "SendGrid": {
               "target": "Package",
               "version": "[9.21.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.15.0, )"
             }
           },
           "imports": [

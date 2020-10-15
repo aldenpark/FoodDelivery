@@ -12,7 +12,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.8",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
-          "Microsoft.EntityFrameworkCore.Tools": "3.1.7"
+          "Microsoft.EntityFrameworkCore.Tools": "3.1.7",
+          "Stripe.net": "39.15.0"
         },
         "runtime": {
           "FoodDelivery.DataAccess.dll": {}
@@ -996,6 +997,19 @@
           }
         }
       },
+      "Stripe.net/39.15.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Stripe.net.dll": {
+            "assemblyVersion": "39.15.0.0",
+            "fileVersion": "39.15.0.0"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1855,7 +1869,8 @@
       "FoodDelivery.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
-          "Microsoft.Extensions.Identity.Stores": "3.1.8"
+          "Microsoft.Extensions.Identity.Stores": "3.1.8",
+          "Stripe.net": "39.15.0"
         },
         "runtime": {
           "FoodDelivery.Models.dll": {}
@@ -2526,6 +2541,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "Stripe.net/39.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qpf6Xz9vzxP78qtoiVH7RC4cvTHjOsOPNC/KYd1FttvWKfVAYRaC35XlmfCYSYg4L+6x8Y+CBrxs8VXGHI3H7g==",
+      "path": "stripe.net/39.15.0",
+      "hashPath": "stripe.net.39.15.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

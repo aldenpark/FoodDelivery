@@ -877,9 +877,6 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\FoodD
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.csprojAssemblyReference.cache
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.AssemblyInfoInputs.cache
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.AssemblyInfo.cs
-D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.csproj.CoreCompileInputs.cache
-D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cs
-D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cache
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cache
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cs
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.TagHelpers.input.cache
@@ -920,3 +917,10 @@ D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\stati
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.dll
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.pdb
 D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.genruntimeconfig.cache
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Cart\Index.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Cart\Summary.cshtml.g.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.csproj.CoreCompileInputs.cache
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cs
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cache
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\bin\Debug\netcoreapp3.1\Stripe.net.dll
+D:\var\www\School\CS4790\FoodDelivery\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Cart\OrderConfirmation.cshtml.g.cs
